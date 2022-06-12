@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2bef059.chunk.css",
+    "main.js": "/static/js/main.c8682a2a.chunk.js",
+    "main.js.map": "/static/js/main.c8682a2a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ce89729d.js.map",
+    "static/js/2.a170a56d.chunk.js": "/static/js/2.a170a56d.chunk.js",
+    "static/js/2.a170a56d.chunk.js.map": "/static/js/2.a170a56d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2b848bb4c0ad2ce7995a225fcc2308f8.js": "/precache-manifest.2b848bb4c0ad2ce7995a225fcc2308f8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a2bef059.chunk.css.map": "/static/css/main.a2bef059.chunk.css.map",
+    "static/js/2.a170a56d.chunk.js.LICENSE.txt": "/static/js/2.a170a56d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/buld.jpg": "/static/media/buld.a1051a22.jpg",
+    "static/media/cwoc.png": "/static/media/cwoc.404ae7bc.png",
+    "static/media/dework.png": "/static/media/dework.4263edcc.png",
+    "static/media/all.css": "/static/media/fa-solid-900.c2801fb4.svg",
+    "static/media/gdg.png": "/static/media/gdg.6364dbb3.png",
+    "static/media/github.png": "/static/media/github.0ba2aa20.png",
+    "static/media/googleAssistant.jpg": "/static/media/googleAssistant.0c8a4c11.jpg",
+    "static/media/localguide.png": "/static/media/localguide.b7f903d7.png",
+    "static/media/me.png": "/static/media/me.fc6b29f1.png",
+    "static/media/mlh-logo.svg": "/static/media/mlh-logo.bc5cfd3a.svg",
+    "static/media/mlh.png": "/static/media/mlh.53dd27a8.png",
+    "static/media/mongo.png": "/static/media/mongo.d324ee17.png",
+    "static/media/postman.jpg": "/static/media/postman.22f11067.jpg",
+    "static/media/postman.png": "/static/media/postman.c108f557.png",
+    "static/media/skillenza.png": "/static/media/skillenza.7b7a76ef.png",
+    "static/media/trantor.jpg": "/static/media/trantor.c465ecaa.jpg",
+    "static/media/ubc.png": "/static/media/ubc.f31b7c71.png",
+    "static/media/valora.jpg": "/static/media/valora.246ad3ed.jpg",
+    "static/media/wrighter.jpg": "/static/media/wrighter.02fdae43.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce89729d.js",
+    "static/js/2.a170a56d.chunk.js",
+    "static/css/main.a2bef059.chunk.css",
+    "static/js/main.c8682a2a.chunk.js"
+  ]
+}
