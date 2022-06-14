@@ -4,7 +4,7 @@
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
   useCustomCursor: false, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
+  googleTrackingID: "G-ZD689SVF6K",
 };
 
 //Home Page
@@ -37,11 +37,11 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building performance-optimized and user-friendly front end application using ReactJS",
-        "⚡ Using all aspects of Facebook's design best practices and emerging UI development techniques",
-        "⚡ Writing high-quality code & implementing unit test and E2E tests for your applications",
-        "⚡ Creating application backend in Node, Express",
-        "⚡ Integration of third party services such as AWS(EC2, Amplify, S3, Cloudfront), GCP, Azure",
+        "💻 Building performance-optimized and user-friendly front end application using ReactJS",
+        "💻 Using all aspects of Facebook's design best practices and emerging UI development techniques",
+        "💻 Writing high-quality code & implementing unit test and E2E tests for your applications",
+        "💻 Creating application backend in Node, Express",
+        "💻 Integration of third party services such as AWS(EC2, Amplify, S3, Cloudfront), GCP, Azure",
       ],
       softwareSkills: [
         {
@@ -174,7 +174,7 @@ const skills = {
       skills: [
         "⚡ Experience working on NFT marketplace and minting page",
         "⚡ Experience working on Decenteralized Finance and Leverage Protocol",
-        "⚡ Experience building ethereum compatible chain",
+        "⚡ Experience working on ethereum compatible chain",
         "⚡ Experience working on Cosmos SDK and chains",
         "⚡ Experience participating in DAO",
       ],
@@ -184,9 +184,9 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration & Continuous Delivery",
+        "⛅ Experience working on multiple cloud platforms",
+        "⛅ Experience hosting and managing websites",
+        "⛅ Experience with Continuous Integration & Continuous Delivery",
       ],
       softwareSkills: [
         {
