@@ -11,6 +11,16 @@ export default function Footer(props) {
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
           Made with <span role="img">❤️</span> by {greeting.title2}
         </p>
+        <p className="footer-text" style={{ color: props.theme.secondaryText }}>
+          Want to see how I made it? click{" "}
+          <a
+            href="https://github.com/visitskyworld/visitskyworld.github.io"
+            style={{ color: props.theme.accentBright }}
+            target="__blank"
+          >
+            here
+          </a>
+        </p>
       </Fade>
     </div>
   );

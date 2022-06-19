@@ -33,6 +33,11 @@ export default function ProjectCard({ repo, theme }) {
           onClick={() => openRepoinNewTab(repo.url)}
           style={{ backgroundColor: theme.projectCard }}
         >
+          <img
+            className="project-card-logo"
+            src={require(`../../assests/images/projects/${repo.logo_path}`)}
+            alt=""
+          />
           <div className="repo-name-div">
             <p className="repo-name" style={{ color: theme.text }}>
               {repo.name}

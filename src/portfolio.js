@@ -40,7 +40,7 @@ const skills = {
         "💻 Building performance-optimized and user-friendly front end application using ReactJS",
         "💻 Using all aspects of Facebook's design best practices and emerging UI development techniques",
         "💻 Writing high-quality code & implementing unit test and E2E tests for your applications",
-        "💻 Creating application backend in Node, Express",
+        "💻 Creating application backend in Node, Express, typeORM, prisma etc",
         "💻 Integration of third party services such as AWS(EC2, Amplify, S3, Cloudfront), GCP, Azure",
       ],
       softwareSkills: [
@@ -451,6 +451,7 @@ const projects = {
       id: "0",
       name: "MarbleDAO",
       url: "https://app.marbledao.finance",
+      logo_path: "marble.png",
       description:
         "MarbleDAO is the first community-driven DAO on Juno. It supports staking&bonding tokens, NFT marketplace",
       languages: [
@@ -463,14 +464,20 @@ const projects = {
           iconifyClass: "logos-typescript",
         },
         {
-          name: "SCSS",
-          iconifyClass: "vscode-icons:file-type-scss2",
+          name: "Next.js",
+        },
+        {
+          name: "CosmJS",
+        },
+        {
+          name: "Styled Component",
         },
       ],
     },
     {
       id: "1",
       name: "Shapeshift",
+      logo_path: "shapeshift.png",
       url: "https://github.com/shapeshift/web",
       description:
         "Shapeshift is one of the world famous cryptocurrency exchange platforms",
@@ -483,11 +490,21 @@ const projects = {
           name: "TypeScript",
           iconifyClass: "logos-typescript",
         },
+        {
+          name: "Chakra UI",
+        },
+        {
+          name: "Cypress",
+        },
+        {
+          name: "Jest",
+        },
       ],
     },
     {
       id: "2",
       name: "Tidio Chatbot",
+      logo_path: "tidio.png",
       url: "https://www.tidio.com/chatbots/",
       description: "Tidio is a conversational AI platform",
       languages: [
@@ -496,18 +513,25 @@ const projects = {
           iconifyClass: "logos-react",
         },
         {
-          name: "Vue",
+          name: "Vue3",
           iconifyClass: "logos-vue",
         },
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
         },
+        {
+          name: "CircleCI",
+        },
+        {
+          name: "GraphQL/Apollo",
+        },
       ],
     },
     {
       id: "4",
       name: "Treasure chess",
+      logo_path: "treasure-chess.png",
       url: "https://treasure.chess.com/",
       description: "You can collect your NFT by playing chess game!",
       languages: [
@@ -516,8 +540,76 @@ const projects = {
           iconifyClass: "logos-react",
         },
         {
+          name: "TypeScript",
+          iconifyClass: "logos-typescript",
+        },
+        {
+          name: "RedwoodJS",
+        },
+        {
+          name: "Ethers.js",
+        },
+        {
+          name: "Prisma",
+        },
+        {
+          name: "Node.js",
+        },
+      ],
+    },
+    {
+      id: "5",
+      name: "Dework",
+      logo_path: "dework.png",
+      url: "https://app.dework.xyz/",
+      description:
+        "Dework is a web3-native project management tool with token payments, credentialing, bounties",
+      languages: [
+        {
+          name: "React",
+        },
+        {
+          name: "Typescript",
+        },
+        {
+          name: "Node.js",
+        },
+        {
           name: "JavaScript",
-          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "GraphQL",
+        },
+        {
+          name: "Web3.js",
+        },
+        {
+          name: "AntDesign",
+        },
+      ],
+    },
+    {
+      id: "6",
+      name: "Neko No Mori",
+      logo_path: "neko.png",
+      url: "https://nekonomori.io/",
+      description:
+        "Neko no Mori is a legendary forest in the spirit world inhabited by Neko and other spirits.",
+      languages: [
+        {
+          name: "Vue",
+        },
+        {
+          name: "Typescript",
+        },
+        {
+          name: "TailwindCSS",
+        },
+        {
+          name: "NFT",
+        },
+        {
+          name: "Solidity",
         },
       ],
     },

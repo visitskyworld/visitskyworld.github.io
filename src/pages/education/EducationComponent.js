@@ -6,6 +6,7 @@ import Certifications from "../../containers/certifications/Certifications";
 import EducationImg from "./EducationImg";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
+import Navigation from "../../components/navigation/Navication";
 
 function Education(props) {
   const theme = props.theme;
@@ -38,6 +39,11 @@ function Education(props) {
         <Educations theme={props.theme} />
         <Certifications theme={props.theme} />
       </div>
+      <Navigation
+        theme={props.theme}
+        title="View My Experience"
+        to="/experience"
+      />
       <Footer theme={props.theme} />
     </div>
   );

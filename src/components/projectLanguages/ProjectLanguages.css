@@ -7,11 +7,21 @@
   text-align: right;
 }
 
-.software-skill-inline-languages {
-  display: inline-block;
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   margin-right: 20px;
   margin-bottom: 0px;
   font-family: "Google Sans Regular";
+}
+
+.skill-language {
+  background-color: white;
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
 }
 
 #tooltip-top > .tooltip-inner {

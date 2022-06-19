@@ -6,6 +6,7 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
+import Navigation from "../../components/navigation/Navication";
 
 function Experience(props) {
   const theme = props.theme;
@@ -43,6 +44,7 @@ function Experience(props) {
         </Fade>
       </div>
       <ExperienceAccordion sections={experience["sections"]} theme={theme} />
+      <Navigation theme={props.theme} title="View My Projects" to="/projects" />
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );
