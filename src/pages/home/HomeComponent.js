@@ -11,11 +11,7 @@ function Home(props) {
       <Header theme={props.theme} setTheme={props.setTheme} />
       <Greeting theme={props.theme} />
       <Skills theme={props.theme} />
-      <Navigation
-        theme={props.theme}
-        title="View My Experience"
-        to="/experience"
-      />
+      <Navigation theme={props.theme} title="View My Projects" to="/projects" />
       <Footer theme={props.theme} />
     </div>
   );
