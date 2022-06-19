@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectLanguages.css";
-import { OverlayTrigger, Tooltip } from "react-bootstrap";
+// import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
 function ProjectLanguages(props) {
   return (
