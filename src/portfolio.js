@@ -46,122 +46,127 @@ const skills = {
       softwareSkills: [
         {
           skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
+          name: "logos:react",
         },
         {
           skillName: "Vue",
-          fontAwesomeClassname: "simple-icons:vuejs",
-          style: {
-            color: "#42b883",
-          },
+          name: "logos-vue",
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "TypeScript",
-          fontAwesomeClassname: "simple-icons:typescript",
-          style: {
-            color: "#3178c6",
-          },
+          skillName: "Angular",
+          name: "logos:angular-icon",
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
+          name: "logos:nodejs-icon",
+        },
+        {
+          skillName: "Remix",
+          name: "simple-icons:remix",
+          style: { color: "#DDD" },
+        },
+        {
+          skillName: "Svelte",
+          name: "logos:svelte-icon",
+        },
+        {
+          skillName: "JavaScript",
+          name: "logos:javascript",
+        },
+        {
+          skillName: "TypeScript",
+          name: "logos:typescript-icon",
+        },
+        {
+          skillName: "Next.js",
+          name: "logos:nextjs-icon",
+        },
+        {
+          skillName: "Prisma",
+          name: "vscode-icons:file-type-light-prisma",
+        },
+        {
+          skillName: "NestJs",
+          name: "logos:nestjs",
         },
         {
           skillName: "GraphQL",
-          fontAwesomeClassname: "simple-icons:graphql",
-          style: {
-            color: "#DE33A6",
-          },
+          name: "logos:graphql",
+        },
+        {
+          skillName: "Material UI",
+          name: "logos:material-ui",
+        },
+        {
+          skillName: "Chakra UI",
+          name: "simple-icons:chakraui",
+        },
+        {
+          skillName: "Tailwind CSS",
+          name: "logos:tailwindcss-icon",
+        },
+        {
+          skillName: "Ant Design",
+          name: "logos:ant-design",
         },
         {
           skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
+          name: "logos:npm-icon",
         },
         {
           skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#117cad",
-          },
+          name: "logos:yarn",
         },
 
         {
           skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
-          style: {
-            color: "#E94E32",
-          },
+          name: "fa6-brands:git-alt",
+          style: { color: "#E94E32" },
         },
 
         {
           skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
-          style: {
-            color: "#3776AB",
-          },
+          name: "logos:python",
         },
         {
           skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          name: "bxl:mongodb",
           style: {
             color: "#439743",
           },
         },
         {
           skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
+          name: "logos:postgresql",
         },
         {
           skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
-          style: {
-            color: "#4479A1",
-          },
+          name: "logos:mysql-icon",
         },
         {
           skillName: "jQuery",
-          fontAwesomeClassname: "simple-icons:jquery",
+          name: "simple-icons:jquery",
           style: {
             color: "#0865A6",
           },
         },
         {
           skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
+          name: "vscode-icons:file-type-php2",
           style: {
             color: "#7377AD",
           },
         },
         {
           skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
+          name: "simple-icons:wordpress",
           style: {
             color: "#207297",
           },
         },
         {
           skillName: "Laravel",
-          fontAwesomeClassname: "simple-icons:laravel",
+          name: "logos:laravel",
           style: {
             color: "#f9322c",
           },
@@ -191,45 +196,31 @@ const skills = {
       softwareSkills: [
         {
           skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
+          name: "logos:aws",
+        },
+        {
+          skillName: "AWS",
+          name: "logos:google-cloud",
         },
         {
           skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-          },
+          name: "logos:netlify",
         },
         {
           skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-          },
+          name: "logos:heroku-icon",
         },
         {
           skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
+          name: "logos:firebase",
         },
         {
           skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
+          name: "logos:docker-icon",
         },
         {
           skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
-          style: {
-            color: "#5b77ef",
-          },
+          name: "logos:github-actions",
         },
       ],
     },
