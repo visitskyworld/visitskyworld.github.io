@@ -6,6 +6,7 @@ import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
+import { InlineWidget } from "react-calendly";
 
 const ContactData = contactPageData.contactSection;
 
@@ -48,10 +49,22 @@ function Contact(props) {
               <SocialMedia />
               <br />
               <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
+              <a
+                {...styles}
+                className="general-btn"
+                href={greeting.resumeLink}
+                target="__blank"
+              >
                 See my Resume
               </a>
             </div>
+          </div>
+          <div>
+            <InlineWidget
+              styles={{ overflow: "hidden", height: 900 }}
+              url="https://calendly.com/andrew-scott-visitskyworld"
+              pageSettings={{ hideGdprBanner: true }}
+            />
           </div>
         </Fade>
       </div>

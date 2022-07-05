@@ -15,6 +15,7 @@ export default function Greeting(props) {
     ":hover": {
       boxShadow: `0 5px 15px ${theme.accentBright}`,
     },
+    marginRight: 10,
   });
 
   return (
@@ -51,6 +52,14 @@ export default function Greeting(props) {
                 >
                   Contact Me
                 </button>
+                <a
+                  {...styles}
+                  className="button"
+                  href={greeting.resumeLink}
+                  target="__blank"
+                >
+                  See my Resume
+                </a>
               </div>
             </div>
           </div>
