@@ -45,6 +45,14 @@ const skills = {
       ],
       softwareSkills: [
         {
+          skillName: "JavaScript",
+          name: "logos:javascript",
+        },
+        {
+          skillName: "TypeScript",
+          name: "logos:typescript-icon",
+        },
+        {
           skillName: "ReactJS",
           name: "logos:react",
         },
@@ -70,16 +78,16 @@ const skills = {
           name: "logos:svelte-icon",
         },
         {
-          skillName: "JavaScript",
-          name: "logos:javascript",
-        },
-        {
-          skillName: "TypeScript",
-          name: "logos:typescript-icon",
+          skillName: "Quasar",
+          name: "vscode-icons:file-type-light-quasar",
         },
         {
           skillName: "Next.js",
           name: "logos:nextjs-icon",
+        },
+        {
+          skillName: "NuxtJS",
+          name: "logos:nuxt-icon",
         },
         {
           skillName: "Prisma",
@@ -92,6 +100,29 @@ const skills = {
         {
           skillName: "GraphQL",
           name: "logos:graphql",
+        },
+        {
+          skillName: "Firebase",
+          name: "logos:firebase",
+        },
+        {
+          skillName: "Supabase",
+          name: "logos:supabase-icon",
+        },
+        {
+          skillName: "Supabase",
+          name: "logos:supabase-icon",
+        },
+        {
+          skillName: "SolidJS",
+          name: "logos:solidjs-icon",
+        },
+        {
+          skillName: "Directus",
+          name: "simple-icons:directus",
+          style: {
+            color: "#DDDDDD",
+          },
         },
         {
           skillName: "Material UI",
@@ -148,6 +179,13 @@ const skills = {
           name: "simple-icons:jquery",
           style: {
             color: "#0865A6",
+          },
+        },
+        {
+          skillName: "Astro",
+          name: "logos:astro",
+          style: {
+            color: "#FFFFFF",
           },
         },
         {
