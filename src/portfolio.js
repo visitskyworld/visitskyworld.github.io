@@ -110,10 +110,6 @@ const skills = {
           name: "logos:supabase-icon",
         },
         {
-          skillName: "Supabase",
-          name: "logos:supabase-icon",
-        },
-        {
           skillName: "SolidJS",
           name: "logos:solidjs-icon",
         },
