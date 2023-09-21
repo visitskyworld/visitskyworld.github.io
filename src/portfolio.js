@@ -15,7 +15,7 @@ const greeting = {
   nickname: "visitskyworld",
   full_name: "Andrew Scott",
   subTitle:
-    "Full Stack Engineer, React expert⚛️, Blockchain enthusiast.🔥 And I ❤️ playing the guitar!",
+    "Full Stack Engineer, React expert⚛️, Blockchain & AI/ML Engineer.🔥 And I ❤️ playing the guitar!",
   funFact: "I like spaghetti🍝, but hate spaghetti code",
   resumeLink:
     "https://drive.google.com/file/d/1RWLOgRoslnWXJtSCit0r_i9rII7D-zxX/view?usp=sharing",
@@ -28,7 +28,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/andrew-scott-visitskyworld/",
   gmail: "visitskyworld@gmail.com",
   discord: "https://discord.com/users/929161993011748864",
-  telegram: "https://t.me/visitskyworld",
+  telegram: "https://t.me/visit_skyworld",
 };
 
 const skills = {
@@ -57,16 +57,43 @@ const skills = {
           name: "logos:react",
         },
         {
+          skillName: "Python",
+          name: "logos:python",
+        },
+        {
+          skillName: "Go",
+          name: "logos:go",
+        },
+        {
+          skillName: "Rust",
+          name: "skill-icons:rust",
+        },
+        {
+          skillName: "NodeJS",
+          name: "logos:nodejs-icon",
+        },
+        {
+          skillName: "Flask",
+          name: "bxl:flask",
+          style: {
+            color: "#fff",
+          },
+        },
+        {
+          skillName: "FAST API",
+          name: "devicon:fastapi",
+        },
+        {
+          skillName: "Django",
+          name: "vscode-icons:file-type-django",
+        },
+        {
           skillName: "Vue",
           name: "logos-vue",
         },
         {
           skillName: "Angular",
           name: "logos:angular-icon",
-        },
-        {
-          skillName: "NodeJS",
-          name: "logos:nodejs-icon",
         },
         {
           skillName: "Remix",
@@ -152,10 +179,6 @@ const skills = {
         },
 
         {
-          skillName: "Python",
-          name: "logos:python",
-        },
-        {
           skillName: "MongoDB",
           name: "bxl:mongodb",
           style: {
@@ -208,6 +231,56 @@ const skills = {
       ],
     },
     {
+      title: "AI/ML development",
+      fileName: "AIImg",
+      skills: [
+        "🧠 Language Model Development (LLM)",
+        "🧠 Natural Language Processing (NLP):",
+        "🧠 Image Generation and Processing (DALL-E, Hugging Face)",
+        "🧠 OpenAI integrations (GPT-4, GPT-3.5)",
+      ],
+      softwareSkills: [
+        {
+          skillName: "OpenAI",
+          name: "arcticons:openai-chatgpt",
+          style: {
+            color: "#fff",
+          },
+        },
+        {
+          skillName: "Hugging face",
+          name: "fluent-emoji:hugging-face",
+        },
+        {
+          skillName: "Tensorflow",
+          name: "logos:tensorflow",
+        },
+        {
+          skillName: "Langchain",
+          name: "arcticons:birdnet-alt",
+        },
+        {
+          skillName: "Pinecone",
+          name: "logos:pinecone-icon",
+          style: {
+            background: "#fff",
+          },
+        },
+        {
+          skillName: "AI image generation",
+          name: "material-symbols:image-outline",
+        },
+        {
+          skillName: "Vector",
+          name: "logos:vector",
+        },
+        {
+          skillName: "Chatbot",
+          name: "arcticons:gptassist",
+        },
+      ],
+    },
+    {
       title: "Blockchain development",
       fileName: "BlockchainImg",
       skills: [
@@ -233,7 +306,7 @@ const skills = {
           name: "logos:aws",
         },
         {
-          skillName: "AWS",
+          skillName: "Google Clould Platform",
           name: "logos:google-cloud",
         },
         {
@@ -325,11 +398,28 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
+          title: "Senior Fullstack Engineer",
+          company: "Create",
+          company_url: "https://create.xyz/",
+          logo_path: "create.jfif",
+          duration: "2022.05 - PRESENT",
+          location: "Remote",
+          description: `
+          - Developed multiple enterprise grade full-stack web applications for Create’s customers, and internal apps.
+          - Participated in Create’s code generation AI agent development (AI-powered dev teams that deliver your next web app in just minutes.) using OpenAI’s GPT via Langchain.
+          - Worked across a full stack, building various features and products, including content generation using LLMs, infrastructure and database architecture, along with web apps.
+          - Ensured application performance, uptime, and scale, and maintain high standards for code quality and application design.
+          - Assessed and reviewed all pull requests created by other teammates to ensure the quality and accuracy of the code.
+          - Integrated enhancements into web design to improve user stickiness, smooth functionality, and boost load times.
+          - Contributed to the internal team by authoring two NPM packages to implement custom Google Analytics and Facebook tags within our applications.`,
+          color: "#0071C5",
+        },
+        {
           title: "Fullstack Engineer",
           company: "Dework",
           company_url: "https://dework.xyz/",
           logo_path: "dework.png",
-          duration: "2021.04 - PRESENT",
+          duration: "2022.01 - 2022.11",
           location: "Remote",
           description: `
           -	Followed SDLC best practices within Agile environment to produce rapid iterations.
@@ -474,6 +564,92 @@ const projects = {
   data: [
     {
       id: "0",
+      name: "Create",
+      url: "https://app.create.xyz",
+      logo_path: "create.png",
+      description:
+        "AI powered app creattion platform, It can save 60+ days on Day 1!",
+      languages: [
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "logos-typescript",
+        },
+        {
+          name: "Next.js",
+        },
+        {
+          name: "Langchain",
+        },
+        {
+          name: "LLM",
+        },
+        {
+          name: "GraphQL",
+        },
+      ],
+    },
+    {
+      id: "0",
+      name: "ArtHeart",
+      url: "https://artheart.ai",
+      logo_path: "artheart.png",
+      description:
+        "AI powered character generation platform, you can even chat with him/her",
+      languages: [
+        {
+          name: "Svelte",
+        },
+        {
+          name: "TypeScript",
+        },
+        {
+          name: "Flutter",
+        },
+        {
+          name: "Django",
+        },
+        {
+          name: "Hugging Face",
+        },
+        {
+          name: "Stable Diffusion",
+        },
+      ],
+    },
+    {
+      id: "0",
+      name: "MapLibre",
+      url: "https://maplibre.org",
+      logo_path: "maplibre.png",
+      description:
+        "Open-source mapping libraries for web and mobile app developers.",
+      languages: [
+        {
+          name: "React",
+        },
+        {
+          name: "TypeScript",
+        },
+        {
+          name: "Golang",
+        },
+        {
+          name: "Rust",
+        },
+        {
+          name: "WebGL",
+        },
+        {
+          name: "Javascript",
+        },
+      ],
+    },
+    {
+      id: "0",
       name: "MarbleDAO",
       url: "https://app.marbledao.finance",
       logo_path: "marble.png",
@@ -490,6 +666,12 @@ const projects = {
         },
         {
           name: "Next.js",
+        },
+        {
+          name: "Golang",
+        },
+        {
+          name: "Rust",
         },
         {
           name: "CosmJS",

@@ -6,6 +6,7 @@ import { Fade } from "react-reveal";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import BlockchainImg from "./BlockchainImg";
+import AIImg from "./AIImg";
 // import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
@@ -15,6 +16,7 @@ function GetSkillSvg(props) {
     return <CloudInfraImg theme={props.theme} />;
   else if (props.fileName === "BlockchainImg")
     return <BlockchainImg theme={props.theme} />;
+  else if (props.fileName === "AIImg") return <AIImg theme={props.theme} />;
   // return <DesignImg theme={props.theme} />;
 }
 
@@ -25,7 +27,7 @@ function SkillSection(props) {
       {skills.data.map((skill, index) => {
         if (index % 2 === 0) {
           return (
-            <div className="skills-main-div">
+            <div className="skills-main-div" key={index}>
               <Fade left duration={2000}>
                 <div className="skills-image-div">
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
@@ -43,9 +45,10 @@ function SkillSection(props) {
                 </Fade>
                 <Fade right duration={2000}>
                   <div>
-                    {skill.skills.map((skillSentence) => {
+                    {skill.skills.map((skillSentence, index) => {
                       return (
                         <p
+                          key={index}
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                         >
@@ -60,7 +63,7 @@ function SkillSection(props) {
           );
         } else {
           return (
-            <div className="skills-main-div">
+            <div className="skills-main-div" key={index}>
               <div className="skills-text-div">
                 <Fade left duration={1000}>
                   <h1 className="skills-heading" style={{ color: theme.text }}>
@@ -72,9 +75,10 @@ function SkillSection(props) {
                 </Fade>
                 <Fade left duration={2000}>
                   <div>
-                    {skill.skills.map((skillSentence) => {
+                    {skill.skills.map((skillSentence, index) => {
                       return (
                         <p
+                          key={index}
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                         >
