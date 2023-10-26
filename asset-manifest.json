@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.ec695d46.chunk.css",
-    "main.js": "/static/js/main.72cd5997.chunk.js",
-    "main.js.map": "/static/js/main.72cd5997.chunk.js.map",
+    "main.js": "/static/js/main.93fb7790.chunk.js",
+    "main.js.map": "/static/js/main.93fb7790.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
     "runtime-main.js.map": "/static/js/runtime-main.ce89729d.js.map",
-    "static/js/2.1e87463c.chunk.js": "/static/js/2.1e87463c.chunk.js",
-    "static/js/2.1e87463c.chunk.js.map": "/static/js/2.1e87463c.chunk.js.map",
+    "static/js/2.6a641ee4.chunk.js": "/static/js/2.6a641ee4.chunk.js",
+    "static/js/2.6a641ee4.chunk.js.map": "/static/js/2.6a641ee4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bdd4874a000cbb9052352c8aa2e5d8b4.js": "/precache-manifest.bdd4874a000cbb9052352c8aa2e5d8b4.js",
+    "precache-manifest.da796b25a255dbcdad5efc0d78dd3eed.js": "/precache-manifest.da796b25a255dbcdad5efc0d78dd3eed.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.ec695d46.chunk.css.map": "/static/css/main.ec695d46.chunk.css.map",
-    "static/js/2.1e87463c.chunk.js.LICENSE.txt": "/static/js/2.1e87463c.chunk.js.LICENSE.txt",
+    "static/js/2.6a641ee4.chunk.js.LICENSE.txt": "/static/js/2.6a641ee4.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/artheart.png": "/static/media/artheart.b7c0fd59.png",
     "static/media/buld.jpg": "/static/media/buld.a1051a22.jpg",
@@ -23,10 +23,11 @@
     "static/media/gdg.png": "/static/media/gdg.6364dbb3.png",
     "static/media/github.png": "/static/media/github.0ba2aa20.png",
     "static/media/googleAssistant.jpg": "/static/media/googleAssistant.0c8a4c11.jpg",
+    "static/media/guitar.png": "/static/media/guitar.403f02ee.png",
     "static/media/localguide.png": "/static/media/localguide.b7f903d7.png",
     "static/media/maplibre.png": "/static/media/maplibre.dab40475.png",
     "static/media/marble.png": "/static/media/marble.c7a1beff.png",
-    "static/media/me.png": "/static/media/me.7aca6f62.png",
+    "static/media/me.png": "/static/media/me.af226636.png",
     "static/media/mlh-logo.svg": "/static/media/mlh-logo.bc5cfd3a.svg",
     "static/media/mlh.png": "/static/media/mlh.53dd27a8.png",
     "static/media/mongo.png": "/static/media/mongo.d324ee17.png",
@@ -44,8 +45,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ce89729d.js",
-    "static/js/2.1e87463c.chunk.js",
+    "static/js/2.6a641ee4.chunk.js",
     "static/css/main.ec695d46.chunk.css",
-    "static/js/main.72cd5997.chunk.js"
+    "static/js/main.93fb7790.chunk.js"
   ]
 }
